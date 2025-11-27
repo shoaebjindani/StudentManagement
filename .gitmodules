@@ -1,0 +1,3 @@
+[submodule "src/main/java/Frameworkpackage"]
+	path = src/main/java/Frameworkpackage
+	url = https://github.com/shoaebjindani/Frameworkpackage.git

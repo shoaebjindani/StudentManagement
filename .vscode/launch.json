@@ -1,0 +1,12 @@
+{
+    "configurations": [        
+        {
+            "type": "java",
+            "name": "SpringBootServletJspApplication",
+            "request": "launch",
+            "mainClass": "com.shoaeb.SpringBootServletJspApplication",
+            "projectName": "spring-boot-servlet-jsp-spring",
+            "console": "internalConsole"
+        }
+    ]
+}

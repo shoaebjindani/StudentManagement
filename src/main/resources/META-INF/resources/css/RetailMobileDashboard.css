@@ -1,0 +1,221 @@
+body { 
+	background: #f1f3f6; 
+	font-family: "Segoe UI", sans-serif; 
+}
+
+.page-container { 
+	min-height: 100vh; 
+	padding: 0.4rem; 
+}
+
+/* Disable scrolling */
+html, body {
+	overflow: hidden;
+	height: 100%;
+}
+
+/* ---------- Floating Speed Dial ---------- */
+.speed-dial {
+	position: fixed;
+	top: 10px;          /* near top */
+	right: 10px;        /* near right */
+	z-index: 3000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column; /* keep vertical layout */
+	align-items: flex-end;
+	pointer-events: none; /* Prevent blocking clicks when closed */
+}
+
+/* When open, allow interaction */
+.speed-dial.open {
+	pointer-events: auto;
+}
+
+/* Buttons */
+.speed-btn {
+	min-width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 12px;
+	gap: 6px;
+	background: #343a40;     /* uniform dark gray */
+	color: white;
+	margin-top: 10px;        /* spacing between buttons when they open downward */
+	box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+	cursor: pointer;
+	transition: transform 0.25s ease, opacity 0.25s ease, background 0.2s ease;
+	pointer-events: auto; /* Each button itself is clickable */
+}
+
+/* Hover effect */
+.speed-btn:hover {
+	background: #4b4f55;
+}
+
+/* Circle main button */
+.speed-btn.main {
+	width: 50px;
+	padding: 0;
+	background: #007bff;
+	border-radius: 50%;
+	order: 1; /* main button first (top) */
+}
+
+/* Child buttons appear below main */
+.speed-btn.child {
+	order: 2;
+}
+
+/* Hide child buttons initially (below main) */
+.speed-dial .child {
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(-15px); /* hidden upward (will drop down) */
+	transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+/* When open, children appear below main */
+.speed-dial.open .child {
+	opacity: 1;
+	pointer-events: auto;
+	transform: translateY(0);
+}
+
+/* ---------- Page Layout Elements ---------- */
+.section-title {
+	font-size: 0.95rem;
+	font-weight: 600;
+	color: #444;
+	margin: 0.4rem 0;
+	padding-bottom: 0.2rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.dashboard-card {
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 0.6rem;
+	padding: 0.7rem 0.4rem;
+	text-align: center;
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.dashboard-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-card i {
+	font-size: 1.4rem;
+	color: #495057;
+	margin-bottom: 0.4rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2.2rem;
+	width: 2.2rem;
+	background: white;
+	border-radius: 50%;
+	padding: 0.6rem;
+}
+
+.dashboard-card span {
+	display: block;
+	font-size: 0.75rem;
+	font-weight: 500;
+	color: #333;
+	text-align: center;
+	line-height: 1.2;
+	margin-top: 0.2rem;
+}
+
+.row.g-2 {
+	--bs-gutter-x: 0.4rem;
+	--bs-gutter-y: 0.4rem;
+}
+
+/* ---------- Modal ---------- */
+.modal-dialog-top {
+	margin: 0.5rem auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transform: none !important;
+}
+
+.modal-content {
+	border-radius: 0.6rem;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+/* Hide icons initially */
+#menuIcon, #closeIcon {
+	transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+/* Default: show menu icon */
+#closeIcon {
+	opacity: 0;
+	transform: scale(0.5);
+}
+
+/* When FAB is open → switch icons */
+.speed-dial.open #menuIcon {
+	opacity: 0;
+	transform: scale(0.5);
+}
+
+.speed-dial.open #closeIcon {
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+/* ---------- Tap / Active Feedback for Dashboard Buttons ---------- */
+.dashboard-card:active {
+	transform: scale(0.96);
+	background: #e9ecef;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+	transition: transform 0.05s ease, background 0.05s ease;
+}
+
+/* Optional ripple feedback (modern app feel) */
+.dashboard-card {
+	position: relative;
+	overflow: hidden;
+}
+
+.dashboard-card::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	transition: width 0.4s ease, height 0.4s ease, opacity 0.6s ease;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.dashboard-card:active::after {
+	width: 200%;
+	height: 200%;
+	opacity: 1;
+	transition: 0s;
+}

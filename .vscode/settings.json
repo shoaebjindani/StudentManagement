@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "git.detectSubmodules": true,
+    "editor.inlayHints.enabled": "off",
+    "debug.autoExpandLazyVariables": "on",
+
+    // ✅ Disabling paste-related behaviors
+    "editor.formatOnPaste": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.codeActionsOnPaste": {},
+    "typescript.suggest.completeFunctionCalls": false
+}

@@ -1,0 +1,3 @@
+docker run --name mysqldb-container -d -p 3305:3306 -e MYSQL_ROOT_PASSWORD=root mysql:8.0.33-debian
+
+docker run -d --link mysqldb-container -p 8080:8080 -e mysqlusername="root" -e password="root" -e host="mysqldb-container" -e port="3306" -e mySqlPath="1" -e schemaName="customizedpos_local" -e projectName="Student Management Offline" -e thread_sleep=0 -e isAuditEnabled="false" -e copyAttachmentsToBuffer="false" -e persistentPath="/home/ubuntu/society_maintenance_staging/" -e queryLogEnabled="false" -e sendEmail="false" shoaebjindani/studentmanagement

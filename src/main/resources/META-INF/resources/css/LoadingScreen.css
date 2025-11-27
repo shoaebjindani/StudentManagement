@@ -1,0 +1,202 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.container {
+    padding-top: 0; /* Removed space at the top */
+    padding-bottom: 20px; /* Space for footer */
+}
+
+.custom-button-container {
+    position: relative;
+    margin:3px;
+}
+
+.custom-button {
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    position: relative;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button.green {
+    background-color: #28a745; /* Bootstrap's success green */
+    color: black;
+}
+
+.custom-button.white {
+    background-color: white; /* Bootstrap's success green */
+    color: black;
+}
+
+.custom-button.pink {
+    background-color: #ff69b4; /* Pink color */
+    color: black;
+}
+
+.badge-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.badgecustom {
+    
+    color: black;
+    width: 100%;    
+    text-align: center;
+    border: 1px solid black;
+    display: flex;    
+    justify-content: center;
+    align-items: center;    
+}
+
+.badge-label {    
+    font-size: 12px;
+}
+
+.badge-value {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.minus-button {
+    background: inherit;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 50%;        
+    color: black;    
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+    border: 1px solid black;
+}
+
+.currentlineqty {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 50%;    
+    background: inherit;
+    border: 1px solid black;
+    color: black;    
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* Bootstrap's light gray */
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer-divider {
+    border-left: 1px solid #ccc;
+    height: 30px;
+    margin: 0 15px;
+}
+
+.complete-loading-button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.complete-loading-button:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 768px) {
+    .custom-button {
+        height: 120px;
+    }
+
+    
+
+    .footer {
+        font-size: 16px;
+    }
+
+    .footer-divider {
+        display: none; /* Hide divider on smaller screens */
+    }
+}
+.modal-button {
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal-button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+@media (max-width: 768px) {
+    .modal-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}

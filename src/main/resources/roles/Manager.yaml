@@ -1,0 +1,6 @@
+- roleId: 2
+  roleName: "Admin"
+  actions:
+    - checkIfUsernameAlreadyExist
+  elements:
+    - 700184

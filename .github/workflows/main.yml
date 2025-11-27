@@ -1,0 +1,25 @@
+name: Deploy to Ubuntu
+
+on:
+  push:
+    branches:
+      - shoaebjindani
+      - customizedpos_staging
+    # Exclude changes to workflow files from triggering the job
+    paths-ignore:
+      - .github/workflows/*  # Ignore changes to the workflow files
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.5.4
+      with:
+        ssh-private-key: ${{ secrets.UBUNTU_PRIVATE_KEY }}
+
+    - name: SSH into Ubuntu machine
+      run: |
+        BRANCH_NAME=$(echo "${{ github.ref }}" | sed 's/refs\/heads\///')
+        ssh -o StrictHostKeyChecking=no -p 22 ubuntu@studentmanagement.in "export PATH='$PATH:/home/ubuntu/jdk-21.0.1/bin' && cd gitrepos && ./patch.sh ${BRANCH_NAME}"

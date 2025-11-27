@@ -1,0 +1,24 @@
+.ninety
+{
+	width:74%!important;
+}
+.quantity
+{
+min-width:60px!important;
+max-height:200px!important;
+overflow-x:hidden;
+width:70%;
+}
+
+.panelmain
+{
+padding:0px!important;
+}
+.button
+{
+	padding:0px!important;
+}
+.colorclass
+{
+	color:red;
+}
