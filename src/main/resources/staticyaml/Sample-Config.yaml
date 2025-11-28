@@ -1,0 +1,13 @@
+mysqlusername: ""
+password: ""
+host: ""
+port: "3306"
+mySqlPath: "1"
+schemaName: student_management
+projectName: Student Management
+thread_sleep: 0
+isAuditEnabled: "true"
+copyAttachmentsToBuffer: "false"
+persistentPath: "/home/ubuntu/student_management/"
+queryLogEnabled: "false"
+sendEmail: "false"
