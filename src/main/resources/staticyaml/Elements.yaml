@@ -1,0 +1,643 @@
+elements:
+- elementId: 26
+  elementName: "Reports"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 9
+- elementId: 700121
+  elementName: "Sales Report 1"
+  parentElementId: 26
+  elementUrl: "?a=showSalesRegister"
+  orderNo: 1
+- elementId: 700137
+  elementName: "Sales Report 2"
+  parentElementId: 26
+  elementUrl: "?a=showSalesReport2"
+  orderNo: 2
+- elementId: 700161
+  elementName: "Sales Report 3"
+  parentElementId: 26
+  elementUrl: "?a=showSalesReport3"
+  orderNo: 3
+- elementId: 700162
+  elementName: "Sales Report 4"
+  parentElementId: 26
+  elementUrl: "?a=showSalesReport4"
+  orderNo: 4
+- elementId: 700122
+  elementName: "ItemWise Customerwise Sales"
+  parentElementId: 26
+  elementUrl: "?a=showCustomerItemHistory"
+  orderNo: 5
+- elementId: 700238
+  elementName: "ItemWise Sales"
+  parentElementId: 26
+  elementUrl: "?a=showItemWiseReports"
+  orderNo: 5
+- elementId: 700123
+  elementName: "General Ledger"
+  parentElementId: 26
+  elementUrl: "?a=showCustomerLedger"
+  orderNo: 6
+- elementId: 700148
+  elementName: "Sales Item Summary"
+  parentElementId: 26
+  elementUrl: "?a=showSalesSummaryReport"
+  orderNo: 7
+- elementId: 700156
+  elementName: "Category Wise Sales"
+  parentElementId: 26
+  elementUrl: "?a=showCategoryWiseStoreWiseSales"
+  orderNo: 8
+- elementId: 700175
+  elementName: "Test Fuel Register"
+  parentElementId: 26
+  elementUrl: "?a=showTestFuelRegister"
+  orderNo: 1
+- elementId: 700176
+  elementName: "Payment Collection Report"
+  parentElementId: 26
+  elementUrl: "?a=showPaymentCollectionReportFuel"
+  orderNo: 1
+- elementId: 700191
+  elementName: "SuperVisor Collection Report"
+  parentElementId: 26
+  elementUrl: "?a=showSupervisorCollection"
+  orderNo: 1
+- elementId: 700165
+  elementName: "Worklist"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 1
+- elementId: 700167
+  elementName: "Nozzle Master"
+  parentElementId: 700132
+  elementUrl: "?a=showNozzleMaster"
+  orderNo: 1
+- elementId: 700168
+  elementName: "Nozzle Check-In"
+  parentElementId: 700165
+  elementUrl: "?a=showCheckInScreen"
+  orderNo: 1
+- elementId: 700190
+  elementName: "Add Test Fuel"
+  parentElementId: 700165
+  elementUrl: "?a=showAddTestFuel"
+  orderNo: 1
+- elementId: 700201
+  elementName: "Add Pump Test"
+  parentElementId: 700165
+  elementUrl: "?a=showAddPumpTest"
+  orderNo: 1
+- elementId: 700170
+  elementName: "Dispenser Master"
+  parentElementId: 700132
+  elementUrl: "?a=showDispenserMaster"
+  orderNo: 1
+- elementId: 700171
+  elementName: "Collect Payment - Supervisor"
+  parentElementId: 700165
+  elementUrl: "?a=showCollectPaymentSupervisor"
+  orderNo: 1
+- elementId: 700181
+  elementName: "Submit Cash to Vault"
+  parentElementId: 700165
+  elementUrl: "?a=showSubmitCashtoVault"
+  orderNo: 1
+- elementId: 700172
+  elementName: "Shift Master"
+  parentElementId: 700132
+  elementUrl: "?a=showShiftMaster"
+  orderNo: 1
+- elementId: 700176
+  elementName: "Item Master"
+  parentElementId: 700132
+  elementUrl: "?a=showItemMaster"
+  orderNo: 1
+- elementId: 700173
+  elementName: " Swipe Machine Master"
+  parentElementId: 700132
+  elementUrl: "?a=showSwipeMaster"
+  orderNo: 1
+- elementId: 1
+  elementName: "Customer"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 10
+- elementId: 2
+  elementName: "Stock"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 13
+- elementId: 3
+  elementName: "Payment"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 12
+- elementId: 4
+  elementName: "Item"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 4
+- elementId: 5
+  elementName: "Category"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 3
+- elementId: 6
+  elementName: "Store"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 1
+- elementId: 7
+  elementName: "Invoice"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 11
+- elementId: 8
+  elementName: "Employee"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 5
+- elementId: 10
+  elementName: "Customer Group"
+  parentElementId: 1
+  elementUrl: "?a=showCustomerGroup"
+  orderNo: 6
+- elementId: 13
+  elementName: "Stock Register"
+  parentElementId: 2
+  elementUrl: "?a=showStockRegister"
+  orderNo: 5
+- elementId: 14
+  elementName: "Category Wise Report"
+  parentElementId: 5
+  elementUrl: "?a=showCategoryWiseReportParameter"
+  orderNo: 5
+- elementId: 15
+  elementName: "Employee Wise Report"
+  parentElementId: 8
+  elementUrl: "?a=showEmployeeWiseReportParameter"
+  orderNo: 4
+- elementId: 16
+  elementName: "Category Master"
+  parentElementId: 5
+  elementUrl: "?a=showCategoryMasterNew"
+  orderNo: 1
+- elementId: 18
+  elementName: "Item Master"
+  parentElementId: 4
+  elementUrl: "?a=showItemMaster"
+  orderNo: 1
+- elementId: 19
+  elementName: "Stock Status"
+  parentElementId: 2
+  elementUrl: "?a=showStockStatus"
+  orderNo: 1
+- elementId: 20
+  elementName: "Customer Master"
+  parentElementId: 1
+  elementUrl: "?a=showCustomerMaster"
+  orderNo: 1
+- elementId: 21
+  elementName: "Generate Sales Invoice"
+  parentElementId: 7
+  elementUrl: "?a=showGenerateInvoice"
+  orderNo: 1
+- elementId: 23
+  elementName: "Store Master"
+  parentElementId: 6
+  elementUrl: "?a=showStoreMaster"
+  orderNo: 1
+- elementId: 24
+  elementName: "Collect Payment From Customer"
+  parentElementId: 3
+  elementUrl: "?a=showCollectPayment"
+  orderNo: 1
+- elementId: 25
+  elementName: "Sales Invoice Report"
+  parentElementId: 7
+  elementUrl: "?a=generateDailyInvoiceReport&type=S"
+  orderNo: 1
+- elementId: 27
+  elementName: "Payment Register"
+  parentElementId: 3
+  elementUrl: "?a=showDailyPaymentRegisterParameter"
+  orderNo: 2
+- elementId: 28
+  elementName: "Customer Collection"
+  parentElementId: 1
+  elementUrl: "?a=generatePendingCustomerCollectionReport"
+  orderNo: 3
+- elementId: 29
+  elementName: "Admin"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 2
+- elementId: 8001
+  elementName: "Employee Master"
+  parentElementId: 29
+  elementUrl: "?a=showEmployeeMaster"
+  orderNo: 4
+- elementId: 700116
+  elementName: "Switch Store"
+  parentElementId: 6
+  elementUrl: "?a=showSwitchStore"
+  orderNo: 6
+- elementId: 700117
+  elementName: "Print Labels"
+  parentElementId: 4
+  elementUrl: "?a=showPrintLabelsScreen"
+  orderNo: 4
+- elementId: 700119
+  elementName: "User Role Mapping"
+  parentElementId: 29
+  elementUrl: "?a=showUserRoleMapping"
+  orderNo: 4
+- elementId: 700124
+  elementName: "Stock Modifications"
+  parentElementId: 2
+  elementUrl: "?a=showStockModifications"
+  orderNo: 1
+- elementId: 700125
+  elementName: "Debit Entry"
+  parentElementId: 3
+  elementUrl: "?a=showCollectPayment&type=debit"
+  orderNo: 1
+- elementId: 700126
+  elementName: "Delivery"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 8
+- elementId: 700127
+  elementName: "Customer Delivery Routine"
+  parentElementId: 700126
+  elementUrl: "?a=showCustomerDeliveryRoutine"
+  orderNo: 1
+- elementId: 700128
+  elementName: "Print Labels Vehicle"
+  parentElementId: 1
+  elementUrl: "?a=showPrintLabelsScreenVehicle"
+  orderNo: 4
+- elementId: 700129
+  elementName: "Expense"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 7
+- elementId: 700130
+  elementName: "Expense Register"
+  parentElementId: 700129
+  elementUrl: "?a=showExpenseEntry"
+  orderNo: 1
+- elementId: 700131
+  elementName: "Debit Register"
+  parentElementId: 3
+  elementUrl: "?a=showDailyPaymentRegisterParameter&type=Debit"
+  orderNo: 2
+- elementId: 700132
+  elementName: "Configuration"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 6
+- elementId: 700150
+  elementName: "Vendor Master"
+  parentElementId: 700132
+  elementUrl: "?a=showVendorMaster"
+  orderNo: 4
+- elementId: 700133
+  elementName: "Configure Tables"
+  parentElementId: 700132
+  elementUrl: "?a=showConfigureTables"
+  orderNo: 4
+- elementId: 700134
+  elementName: "Restaurant"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 3
+- elementId: 700135
+  elementName: "Take Order"
+  parentElementId: 700134
+  elementUrl: "?a=showTables"
+  orderNo: 4
+- elementId: 700136
+  elementName: "Pending Orders"
+  parentElementId: 700134
+  elementUrl: "?a=showPendingOrders"
+  orderNo: 4
+- elementId: 700179
+  elementName: "Vehicle Master"
+  parentElementId: 700132
+  elementUrl: "?a=showVehicleMaster"
+  orderNo: 4
+- elementId: 700189
+  elementName: "Generate LR"
+  parentElementId: 700132
+  elementUrl: "?a=showGenerateLR"
+  orderNo: 4
+- elementId: 700200
+  elementName: "Configure LR"
+  parentElementId: 700132
+  elementUrl: "?a=showConfigureLR"
+  orderNo: 4
+- elementId: 700138
+  elementName: "Add Expense"
+  parentElementId: 700129
+  elementUrl: "?a=showAddExpense"
+  orderNo: 1
+- elementId: 700139
+  elementName: "Bookings Register"
+  parentElementId: 700140
+  elementUrl: "?a=showBookingsRegister"
+  orderNo: 4
+- elementId: 700140
+  elementName: "Booking"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 4
+- elementId: 700141
+  elementName: "Audit Trail"
+  parentElementId: 29
+  elementUrl: "?a=showAuditTrail"
+  orderNo: 4
+- elementId: 700142
+  elementName: "Mobile Bookings"
+  parentElementId: 700140
+  elementUrl: "?a=showMobileBookings"
+  orderNo: 4
+- elementId: 700143
+  elementName: "User Configurations"
+  parentElementId: 700132
+  elementUrl: "?a=showInvoiceConfig"
+  orderNo: 4
+- elementId: 700144
+  elementName: "Slider Images"
+  parentElementId: 700132
+  elementUrl: "?a=showSliderImages"
+  orderNo: 4
+- elementId: 700145
+  elementName: "Generate Quotation"
+  parentElementId: 700146
+  elementUrl: "?a=showGenerateQuote"
+  orderNo: 4
+- elementId: 700146
+  elementName: "Quotation"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 4
+- elementId: 700147
+  elementName: "Quote Register"
+  parentElementId: 700146
+  elementUrl: "?a=generateDailyQuoteReport"
+  orderNo: 4
+- elementId: 700149
+  elementName: "Vendor"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 4
+- elementId: 700151
+  elementName: "Generate Purchase Invoice"
+  parentElementId: 7
+  elementUrl: "?a=showGeneratePurchaseInvoice"
+  orderNo: 1
+- elementId: 700152
+  elementName: "Purchase  Invoice Report"
+  parentElementId: 7
+  elementUrl: "?a=showInvoices&type=P"
+  orderNo: 1
+- elementId: 700155
+  elementName: "Terms And Condition"
+  parentElementId: 700146
+  elementUrl: "?a=showTermsAndCondition"
+  orderNo: 1
+- elementId: 700154
+  elementName: "Timeline"
+  parentElementId: 29
+  elementUrl: "?a=showTimeline"
+  orderNo: 1
+- elementId: 700157
+  elementName: "Visitor"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 1
+- elementId: 700158
+  elementName: "Visitor Register"
+  parentElementId: 700157
+  elementUrl: "?a=showVisitors"
+  orderNo: 1
+- elementId: 700160
+  elementName: "Add Visitor"
+  parentElementId: 700157
+  elementUrl: "?a=showAddVisitor"
+  orderNo: 1
+- elementId: 700174
+  elementName: " Nozzle Register"
+  parentElementId: 26
+  elementUrl: "?a=showNozzleRegister"
+  orderNo: 1
+- elementId: 700199
+  elementName: " Suspense Register"
+  parentElementId: 26
+  elementUrl: "?a=showSuspensePayments"
+  orderNo: 1
+- elementId: 700195
+  elementName: "My Account"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 1
+- elementId: 700197
+  elementName: "User Details"
+  parentElementId: 700195
+  elementUrl: "?a=showUserDetails"
+  orderNo: 1
+  childElements: null
+- elementId: 700177
+  elementName: "QR Code Master "
+  parentElementId: 700132
+  elementUrl: "?a=showQrCodeMaster"
+  orderNo: 1
+- elementId: 700198
+  elementName: "Enter Bank Reconcilation"
+  parentElementId: 700132
+  elementUrl: "?a=showAddBankReconcilation"
+  orderNo: 1
+- elementId: 700180
+  elementName: "Bank Master"
+  parentElementId: 700132
+  elementUrl: "?a=showBankMaster"
+  orderNo: 4
+  childElements: null
+- elementId: 700196
+  elementName: " Reconcilation Register"
+  parentElementId: 26
+  elementUrl: "?a=showReconcilationRegister"
+  orderNo: 1
+- elementId: 700182
+  elementName: "Checkin Register"
+  parentElementId: 26
+  elementUrl: "?a=showCheckinRegister"
+  orderNo: 1
+- elementId: 700184
+  elementName: "General Ledger (Item) "
+  parentElementId: 26
+  elementUrl: "?a=showCustomerLedgerWithItem"
+  orderNo: 3
+- elementId: 700185
+  elementName: "FSM Ledger"
+  parentElementId: 26
+  elementUrl: "?a=showFSMLedger"
+  orderNo: 1
+- elementId: 700186
+  elementName: "Employee Payment Report"
+  parentElementId: 26
+  elementUrl: "?a=showReport&report_id=2"
+  orderNo: 3
+- elementId: 700187
+  elementName: "Deleted Invoice Report"
+  parentElementId: 26
+  elementUrl: "?a=showDeletedInvoiceReport"
+  orderNo: 3
+- elementId: 700188
+  elementName: "Employee Payment"
+  parentElementId: 700165
+  elementUrl: "?a=showEmployeePayment"
+  orderNo: 3
+- elementId: 700189
+  elementName: "Cash To Vault Report"
+  parentElementId: 26
+  elementUrl: "?a=showCashToVaultRegister"
+  orderNo: 1
+- elementId: 700210
+  elementName: "Generate Qr For Vehicle"
+  parentElementId: 4
+  elementUrl: "?a=showGenerateQrForVehicle"
+  orderNo: 4
+- elementId: 700211
+  elementName: "General Ledger (Vehicle) "
+  parentElementId: 26
+  elementUrl: "?a=showCustomerLedgerWithItemVehicle"
+  orderNo: 3
+- elementId: 700212
+  elementName: "Raw Material Master"
+  parentElementId: 700132
+  elementUrl: "?a=showRawMaterialsMaster"
+  orderNo: 1
+- elementId: 700213
+  elementName: "Pending Orders"
+  parentElementId: 26
+  elementUrl: "?a=showPendingRegister"
+  orderNo: 1
+- elementId: 700214
+  elementName: "Todays Planning"
+  parentElementId: 26
+  elementUrl: "?a=showPlanningRegister"
+  orderNo: 1
+- elementId: 700215
+  elementName: "Completed Orders"
+  parentElementId: 26
+  elementUrl: "?a=showCompletedOrders"
+  orderNo: 1
+- elementId: 700216
+  elementName: "Order History"
+  parentElementId: 26
+  elementUrl: "?a=showOrderHistory"
+  orderNo: 1
+- elementId: 700217
+  elementName: "Item Ordering"
+  parentElementId: 700132
+  elementUrl: "?a=showItemOrdering"
+  orderNo: 1
+- elementId: 700218
+  elementName: "Masters"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 6
+- elementId: 700219
+  elementName: "Item Master"
+  parentElementId: 700218
+  elementUrl: "?a=showItemMaster"
+  orderNo: 1
+- elementId: 700301
+  elementName: "Category Master"
+  parentElementId: 700218
+  elementUrl: "?a=showCategoryMasterNew"
+  orderNo: 1
+- elementId: 700302
+  elementName: "Raw Material Master"
+  parentElementId: 700218
+  elementUrl: "?a=showRawMaterialsMaster"
+  orderNo: 1
+- elementId: 700303
+  elementName: "Customer Master"
+  parentElementId: 700218
+  elementUrl: "?a=showCustomerMaster"
+  orderNo: 1
+- elementId: 700307
+  elementName: "Item Ordering"
+  parentElementId: 700218
+  elementUrl: "?a=showItemOrdering"
+  orderNo: 1
+- elementId: 700304
+  elementName: "Users"
+  parentElementId: -1
+  elementUrl: ""
+  orderNo: 2
+- elementId: 700305
+  elementName: "Employee Master"
+  parentElementId: 700304
+  elementUrl: "?a=showEmployeeMaster"
+  orderNo: 4
+- elementId: 700306
+  elementName: "User Role Mapping"
+  parentElementId: 700304
+  elementUrl: "?a=showUserRoleMapping"
+  orderNo: 4
+- elementId: 700307
+  elementName: "Deposit Cash To Bank"
+  parentElementId: 700165
+  elementUrl: "?a=showDepositCashToBank"
+  orderNo: 1
+- elementId: 700308
+  elementName: " Cash Deposit Register "
+  parentElementId: 26
+  elementUrl: "?a=showCashDepositRegister"
+  orderNo: 1
+- elementId: 700309
+  elementName: " Cash Ledger Report "
+  parentElementId: 26
+  elementUrl: "?a=showCashLedgerReport"
+  orderNo: 1
+- elementId: 700310
+  elementName: "Vehicle Master"
+  parentElementId: 700218
+  elementUrl: "?a=showVehicleMaster"
+  orderNo: 4
+- elementId: 700311
+  elementName: "Daily Invoice Report"
+  parentElementId: 7
+  elementUrl: "?a=generateDailyInvoiceReport"
+  orderNo: 1
+- elementId: 700312
+  elementName: "Stock Status Direct"
+  parentElementId: 2
+  elementUrl: "?a=showStockRegisterDirect"
+  orderNo: 1
+- elementId: 700313
+  elementName: "Add Replacement"
+  parentElementId: 700165
+  elementUrl: "?a=showAddReplacement"
+  orderNo: 1
+- elementId: 700314
+  elementName: "Replacement Register"
+  parentElementId: 26
+  elementUrl: "?a=showReplacementRegister"
+  orderNo: 1
+- elementId: 700315
+  elementName: "Memory Stats"
+  parentElementId: 29
+  elementUrl: "?a=showMemoryStats"
+  orderNo: 4
+- elementId: 700316
+  elementName: "Bank Ledger"
+  parentElementId: 26
+  elementUrl: "?a=showBankLedger"
+  orderNo: 3

@@ -1,4 +1,0 @@
-appTypes:
- - appType: Master
-   roles: 1,2
-bypassedActions: validateLogin,Logout
